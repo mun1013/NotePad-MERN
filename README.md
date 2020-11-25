@@ -34,12 +34,12 @@ Redux as a state management and the directory structure as below:
 ```
 
 ├── src
-│   ├── store.js // create a store to store the state of components
+│   ├── store.js // create a store for the state of components
 │   ├── actions
-│   │   ├── noteActions.js  // user perform CRUD actions on Note component
+│   │   ├── noteActions.js  // user perform CRUD actions on the Note component
 │   │   └── types.js
 │   ├── reducers
-│   │   ├── noteReducer.js // return the updated state on the Note component
+│   │   ├── noteReducer.js // return the updated state to the Note component
 │   │   └── rootReducer.js
 
 ```
@@ -48,15 +48,15 @@ Redux as a state management and the directory structure as below:
 
 Install [mongoDB](https://www.mongodb.com/try/download/community) and [node](https://nodejs.org/en/).
 
-The following steps are required to install packages in both client and server:
+The following steps are required to install packages for both client and server:
 
-1.
+1. Install the packages for the server.
 
 ```bash
 npm install
 ```
 
-2.
+2. Install the packages for the client.
 
 ```bash
 npm client-install
